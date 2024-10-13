@@ -11,8 +11,8 @@ nav{
     color: darkslateblue;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    margin:50px 0px 50px 40%;
+    justify-content: flex-start;
+    margin:50px 45% 50px auto;
     font-family: cursive;
     
     border-radius: 15px;
@@ -79,7 +79,7 @@ nav{
     position: relative;
     top:-3px;
 
-    transition: font-size 0.8s ease, top 0.4s ease;
+    transition: font-size 0.8s ease, topcd 0.4s ease;
 }
 
 .box2:hover #m-item2{
