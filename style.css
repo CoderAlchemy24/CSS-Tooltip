@@ -1,0 +1,108 @@
+*{ margin:auto;
+  box-sizing: border-box;}
+
+body{
+    background-color: darkslateblue;
+    color:lavender;
+    
+}
+nav{
+    background-color: lightblue;
+    color: darkslateblue;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin:50px 0px 50px 40%;
+    font-family: cursive;
+    
+    border-radius: 15px;
+    
+    }
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:45px;
+   
+     margin: auto ;
+}
+
+
+.tooltip{
+    height:40px;
+    width: 180px;
+    border-radius: 15px;
+    border: none;
+    background-color: aliceblue;
+    position: relative;
+   
+    text-align: center;
+    margin:auto 10px;
+    padding: 10px 12px;
+
+    top: -90px; 
+    left: 30px;
+    visibility: hidden;
+    
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+
+
+.arrow {
+    position: relative;
+    top:-5px;
+    left: -40px;
+    width:18px;
+    height:18px;
+}
+
+
+.menu-item{
+    color: white;
+    padding:12px 60px 12px 50px;
+    margin: auto 10px;
+}
+
+
+.box:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.box1:hover #m-item1{
+   
+    font-size: 1.5em;
+    position: relative;
+    top:-3px;
+
+    transition: font-size 0.8s ease, top 0.4s ease;
+}
+
+.box2:hover #m-item2{
+   
+    font-size: 1.5em;
+    position: relative;
+    top:-3px;
+
+    transition: font-size 0.8s ease, top 0.4s ease;
+}
+
+.box3:hover #m-item3{
+   
+    font-size: 1.5em;
+    position: relative;
+    top:-3px;
+
+    transition: font-size 0.8s ease, top 0.4s ease;
+}
+
+img { 
+    width: 9px; 
+    height:9px;
+    margin:15px;
+    
+   }
